@@ -56,5 +56,5 @@ def test(ext, num=10000):
         if ext.extract(): t += 1
     print(ext.p, "=>", t / num)
 
-ext = Extractor(ps=[0.05, 0.12, 0.2, 0.23, 0.4], p=0.723)
+ext = Extractor(ps=[0.03, 0.05, 0.09, 0.2, 0.23, 0.4], p=0.723)
 test(ext)
